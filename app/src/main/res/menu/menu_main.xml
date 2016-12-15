@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_alarm"
+        android:title="@string/action_alarm"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_alarm"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/action_profile"
+        android:title="@string/action_profile"
+        app:showAsAction="never"
+        android:icon="@drawable/profile"
+        />
+
+
+
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction ="never"
+       />
+
+
+    <item
+        android:id="@+id/action_user"
+        android:title="User"
+        app:showAsAction= "never"
+        android:orderInCategory="100"
+        android:icon="@drawable/user"
+        />
+
+
+</menu>

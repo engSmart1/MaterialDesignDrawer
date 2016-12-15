@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e6bb9b"
+    android:elevation="4dp">
+
+   <!-- <android.support.v7.widget.ActionMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amvView">
+
+    </android.support.v7.widget.ActionMenuView>-->
+
+</android.support.v7.widget.Toolbar>
